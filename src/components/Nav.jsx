@@ -5,8 +5,8 @@ export default function Nav() {
   const [m, setM] = useState(false);
   return (
     <>
-      <nav className="relative text-white py-4 z-50">
-        <div className="flex justify-between items-center w-11/12 lg:w-4/5 mx-auto">
+      <nav className=" text-white z-50 py-4 fixed top-0 lg:w-4/5 w-11/12 left-1/2 -translate-x-1/2 bg-[#212428]/80">
+        <div className=" flex justify-between items-center w-11/12 lg:w-4/5 mx-auto">
           <div className="flex gap-2 cursor-pointer items-center">
             <div
               onClick={() => setM((p) => !p)}
@@ -27,15 +27,17 @@ export default function Nav() {
                 />
               </svg>
             </div>
-            <Link to={"/"}>Eftakharul Islam</Link>
+            <Link to={"/"} className="text-lg md:text-2xl font-bold">
+              Eftakhar.
+            </Link>
           </div>
           <ul className="md:flex gap-4 hidden">
             <NavLink className={({ isActive }) => {}} to="/">
               <li>Home</li>
             </NavLink>
-            <NavLink to="/about">
+            <a href="#about">
               <li>About</li>
-            </NavLink>
+            </a>
             <NavLink to="/contact">
               <li>Contact</li>
             </NavLink>

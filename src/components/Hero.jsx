@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 export default function Hero() {
   return (
     <>
-      <div className="text-white lg:w-4/5 w-11/12 mx-auto  md:h-[calc(100vh-4rem)] flex flex-col-reverse md:flex-row justify-evenly items-center">
-        <div className="w-11/12 lg:w-1/2">
+      <div className="text-white mt-16 lg:w-4/5 w-11/12 mx-auto  md:h-[calc(100vh-4rem)] xl:h-[700px] flex flex-col-reverse md:flex-row justify-between items-center">
+        <div className="w-11/12  lg:w-1/2">
           <h1 className="text-4xl font-bold">Hi, I'm Eftakharul Islam</h1>
           <p className="mt-4">
             I am a{" "}
@@ -47,14 +47,14 @@ export default function Hero() {
             target="_blank"
             to="https://drive.google.com/file/d/1-mTRnkxSlMIqDmQJ8bugCTJ2I-M8kj_f/view?usp=sharing"
           >
-            <button className="active:scale-95 hover:bg-orange-700/70 border px-4  py-1 rounded-lg mt-5">
+            <button className="mb-5 active:scale-95 hover:bg-orange-700/70 border px-4  py-1 rounded-lg mt-5">
               Download Resume
             </button>
           </Link>
         </div>
 
         <div className="flex justify-center items-center h-[400px] md:h-full w-11/12 md:w-1/2 flex-shrink-0 ">
-          <div className="w-[260px] min-w-[350px] z-[-10] h-screen absolute right-[10%] top-0 bg-orange-700 hidden lg:block"></div>
+          <div className="w-[260px] min-w-[350px] z-[-10] h-screen xl:h-[766px] absolute right-[10%] top-0 bg-orange-700 hidden lg:block"></div>
           <img
             className="rounded-full bg-orange-700 lg:bg-transparent lg:rounded-none md:w-full h-[400px] mx-auto lg:h-full md:min-w-[350px]"
             src={my}
