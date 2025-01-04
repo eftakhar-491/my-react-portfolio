@@ -9,7 +9,7 @@ export default function Projects() {
       .then((res) => res.json())
       .then((data) => setAllData(data));
   }, []);
-  console.log(allData);
+
   return (
     <>
       <section className="pb-14 text-white mt-16 w-11/12 mx-auto lg:w-4/5">

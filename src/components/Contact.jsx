@@ -13,12 +13,9 @@ export default function Contact() {
     };
     emailjs.send(service_id, temp, templateParams, pub_key).then(
       (result) => {
-        console.log(result.text);
         e.target.reset();
       },
-      (error) => {
-        console.log(error.text);
-      }
+      (error) => {}
     );
   };
 

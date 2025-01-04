@@ -16,7 +16,7 @@ export default function ProjectsDetails() {
       .then((data) => setDet(data));
   }, []);
   const data = det.filter((item) => item.id === Number(id))[0];
-  console.log(data);
+
   return (
     <>
       <Helmet>
