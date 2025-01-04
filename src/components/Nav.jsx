@@ -5,8 +5,8 @@ export default function Nav() {
   const [m, setM] = useState(false);
   return (
     <>
-      <nav className=" text-white z-50 py-4 fixed top-0 lg:w-4/5 w-11/12 left-1/2 -translate-x-1/2 bg-[#212428]/80">
-        <div className=" flex justify-between items-center w-11/12 lg:w-4/5 mx-auto">
+      <nav className=" text-white z-50 py-4 fixed top-0  lg:w-4/5 w-11/12 left-1/2 -translate-x-1/2 bg-[#212428]/80">
+        <div className=" flex justify-between items-center xl:max-w-[1400px] px-[5%] mx-auto">
           <div className="flex gap-2 cursor-pointer items-center">
             <div
               onClick={() => setM((p) => !p)}
@@ -35,12 +35,12 @@ export default function Nav() {
             <NavLink className={({ isActive }) => {}} to="/">
               <li>Home</li>
             </NavLink>
-            <a href="#about">
+            <a href="/#about">
               <li>About</li>
             </a>
-            <NavLink to="/contact">
+            <a href="/#contact">
               <li>Contact</li>
-            </NavLink>
+            </a>
           </ul>
           {m && (
             <ul className="absolute top-16 w-36 py-3 shadow-2xl rounded-lg border text-white  pl-5 md:hidden flex flex-col gap-2 z-50 ">

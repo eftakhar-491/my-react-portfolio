@@ -49,7 +49,7 @@ export default function Skills() {
               <img src={ex} alt="ChatGpt" title="ChatGpt" />
             </div>
           </div>
-          <div className="border-black border-l-4 border-r-4 pr-5 rounded-lg pl-5 ml-5 flex flex-col items-center">
+          <div className="border-black border-l-4 border-r-4 pr-5 mr-8 rounded-lg pl-5 ml-5 flex flex-col items-center">
             <h1 className="text-white">Basic Skills</h1>
             <div className="flex gap-6  items-center overflow-hidden ">
               <img

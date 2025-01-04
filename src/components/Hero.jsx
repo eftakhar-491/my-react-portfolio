@@ -4,10 +4,15 @@ import linkdin from "../assets/in.png";
 import git from "../assets/git.png";
 import my from "../assets/my1.png";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 export default function Hero() {
   return (
     <>
-      <div className="text-white mt-16 lg:w-4/5 w-11/12 mx-auto  md:h-[calc(100vh-4rem)] xl:h-[700px] flex flex-col-reverse md:flex-row justify-between items-center">
+      <Helmet>
+        <title>Eftakhar | Home</title>
+        <link rel="canonical" href="https://www.tacobell.com/" />
+      </Helmet>
+      <div className=" text-white mt-16 lg:w-4/5 w-11/12 mx-auto  md:h-[calc(100vh-4rem)] xl:h-[700px] flex flex-col-reverse md:flex-row justify-between items-center">
         <div className="w-11/12  lg:w-1/2">
           <h1 className="text-4xl font-bold">Hi, I'm Eftakharul Islam</h1>
           <p className="mt-4">

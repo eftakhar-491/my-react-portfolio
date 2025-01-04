@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Artifacts publication",
+    "description": "ChronoCraft is an application designed to showcase and provide detailed information about various artifacts.",
+    "image": [
+      "https://i.ibb.co.com/Xx4VMfJ/p1.jpg",
+      "https://i.ibb.co.com/3vGf9mQ/p2.jpg",
+      "https://i.ibb.co.com/RCLQ5xB/p3.jpg"
+    ],
+    "url": "https://chrono-craft-art.web.app/",
+    "keyFeatures": [
+      "Responsive Design",
+      "CURD Operation",
+      "Authentication",
+      "Feedback Form"
+    ],
+    "technologies": [
+      "ReactJS",
+      "JavaScript",
+      "nodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "Firebase"
+    ],
+    "gitRepo": "https://github.com/eftakhar-491/B-10_Assignment-11",
+    "whatToImprove": ["Add a admin accept features", "user profile"]
+  },
+  {
+    "id": 2,
+    "name": "Visa Consultancy",
+    "description": "A Visa Consultancy website is a professional online platform designed to assist individuals and businesses with visa-related services and immigration processes. It typically serves as a one-stop destination for providing detailed information, expert guidance, and end-to-end support in obtaining various types of visas such as student visas, work permits, tourist visas, family visas, or business visas.",
+    "image": [
+      "https://i.ibb.co.com/nRTxM0k/p4.jpg",
+      " https://i.ibb.co.com/6w4m1XG/p5.jpg",
+      " https://i.ibb.co.com/92Jjcbw/p6.jpg"
+    ],
+    "url": "https://b-10-assignment-10.web.app/",
+    "keyFeatures": [
+      "Responsive Design",
+      "CURD Operation",
+      "Authentication",
+      "Feedback Form"
+    ],
+    "technologies": [
+      "ReactJS",
+      "JavaScript",
+
+      "ExpressJS",
+      "MongoDB",
+      "Firebase"
+    ],
+    "gitRepo": "https://github.com/eftakhar-491/Batch-10-Assignment-10",
+    "whatToImprove": [
+      "Add a admin accept features",
+      "user profile",
+      "Easy apply"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Vocabulary Learning",
+    "description": "A French Vocabulary website is an interactive online platform designed to help learners of all levels expand their knowledge of the French language. The website serves as a comprehensive resource for mastering French vocabulary, pronunciation, and usage through engaging and structured content.",
+    "image": [
+      "https://i.ibb.co.com/6shM4wW/p7.jpg",
+      "https://i.ibb.co.com/x1zsG9H/p8.jpg",
+      "https://i.ibb.co.com/gDN6WBt/p9.jpg"
+    ],
+    "url": "https://b-10-assignment-9.web.app/",
+    "keyFeatures": [
+      "Responsive Design",
+      "CURD Operation",
+      "Authentication",
+      "Feedback Form"
+    ],
+    "technologies": ["ReactJS", "JavaScript", "Firebase"],
+    "gitRepo": "https://github.com/eftakhar-491/Batch-10-Assignment-9",
+    "whatToImprove": ["serverSide", "user profile"]
+  }
+]
