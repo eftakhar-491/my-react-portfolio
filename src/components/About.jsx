@@ -7,7 +7,7 @@ export default function About() {
         <div>
           <h1 className="text-2xl font-bold text-center">About Me</h1>
         </div>
-        <div className=" py-6 rounded-xl shadow-xl shadow-black/20  flex gap-6 justify-center items-center w-11/12 mt-4 lg:w-4/5 mx-auto">
+        <div className=" py-6 rounded-xl shadow-xl shadow-black/20  flex flex-col md:flex-row gap-6 justify-center items-center w-11/12 mt-4 lg:w-4/5 mx-auto">
           <img className="w-56 h-64 rounded-full" src={my} alt="" />
           <div className="flex flex-col gap-2">
             <p className="flex gap-2 font-bold items-center">

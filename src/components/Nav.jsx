@@ -43,18 +43,18 @@ export default function Nav() {
             </a>
           </ul>
           {m && (
-            <ul className="absolute top-16 w-36 py-3 shadow-2xl rounded-lg border text-white  pl-5 md:hidden flex flex-col gap-2 z-50 ">
+            <ul className="backdrop-blur-sm absolute top-16 w-36 py-3 shadow-2xl rounded-lg border text-white  pl-5 md:hidden flex flex-col gap-2 z-50 ">
               <NavLink to="/">
                 <li className="  ">Home</li>
               </NavLink>
 
-              <NavLink to="/about">
+              <a href="/#about">
                 <li>About</li>
-              </NavLink>
+              </a>
 
-              <NavLink to="/contact">
+              <a href="/#contact">
                 <li>Contact</li>
-              </NavLink>
+              </a>
             </ul>
           )}
           <Link
@@ -62,7 +62,7 @@ export default function Nav() {
             target="_blank"
             to="https://drive.google.com/file/d/1-mTRnkxSlMIqDmQJ8bugCTJ2I-M8kj_f/view?usp=sharing"
           >
-            <button className="hover:backdrop-blur-3xl hover:bg-orange-700/80 active:scale-95 border px-4 py-1 rounded-lg">
+            <button className="text-sm md:text-lg hover:backdrop-blur-3xl hover:bg-orange-700/80 active:scale-95 border px-4 py-1 rounded-lg">
               Download Resume
             </button>
           </Link>
