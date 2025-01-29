@@ -60,7 +60,7 @@ export default function Nav() {
           <Link
             download={true}
             target="_blank"
-            to="https://drive.google.com/file/d/1-mTRnkxSlMIqDmQJ8bugCTJ2I-M8kj_f/view?usp=sharing"
+            to="https://drive.google.com/file/d/1TjQ8dcd5N0FOChxJPeRaPemnRjsv73Fj/view?usp=sharing"
           >
             <button className="text-sm md:text-lg hover:backdrop-blur-3xl hover:bg-orange-700/80 active:scale-95 border px-4 py-1 rounded-lg">
               Download Resume
