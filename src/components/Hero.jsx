@@ -50,7 +50,7 @@ export default function Hero() {
           </div>
           <Link
             target="_blank"
-            to="https://drive.google.com/file/d/1-mTRnkxSlMIqDmQJ8bugCTJ2I-M8kj_f/view?usp=sharing"
+            to="https://drive.google.com/file/d/1TjQ8dcd5N0FOChxJPeRaPemnRjsv73Fj/view?usp=sharing"
           >
             <button className="mb-5 active:scale-95 hover:bg-orange-700/70 border px-4  py-1 rounded-lg mt-5">
               Download Resume
